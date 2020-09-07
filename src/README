@@ -1,0 +1,71 @@
+# learning
+
+#1
+create and initialize 3 variables: 
+  1. The first being a number that is not a decimal (5)
+  2. A number that is a decimal (5.2)
+  3. Your name.
+  
+#2
+write an if statement to check if your varible is equal to (in programming its ==) 5 if it is then add one to the number and print out the new number.
+write an else case that prints: "error". to print example: System.out.println("what you want to print here");
+
+#3
+wirte an if statement that checks if your first variable + your second variable is equal to 11.2 if it is print "success"
+Write an else case to print "error"
+
+#4 (harder)
+write a for loop that itterates over your name and prints out each letter of your name.
+
+
+
+When finishing this program the final output should look exactly like this.
+
+
+6
+success
+t
+e
+n
+n
+i
+s
+o
+n
+
+
+**NOTES**
+- remember 1 most teaches will teach you how to write variable or class names this is usually done like so: ashVariableName (instead of using spaces)
+- remember 2 that each statement in java ends with a ; there are some exceptions to this such as if statments and foor loops.
+- remember 3 that when you make if statements if else statements or foor loops that {} matters if you place code outside of these brackets it will not execute that       code. In the way that you want it to. (This is called Scope)
+- Remember 4 **capitialization does matter** there are some things that you have a . that will give you some more things to look at that you can do with that object depending on what it is.
+
+Examples:
+
+
+//good example remember 3
+if(true){
+  //code will go here
+}
+else {
+  // your else code goes here.
+}
+
+//good but may not do what you expect. In this one the print will always happen even if you dont add one to it so sometimes it may add one and then print that number and others it may not add one and just print the number depending on if the if statment is correct or not.
+if(true) {
+  //some code to add one to the variable ashVariableName
+}
+//some code to print the value of ashVariableName
+
+
+
+examples for remember 4
+String ash = "ashton";
+ash.equals(); //is an examle another note this is a comment and will not execute and because it is after the ; it will not effect the code on this line!
+
+
+
+
+
+
+
