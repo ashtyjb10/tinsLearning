@@ -22,5 +22,16 @@ public class main
         //Bark
         //Kai2
         //Bark
+
+        Snake mySnake = new Snake();
+        mySnake.whatsMyName();
+        int aNewNum = 12;
+        mySnake.setNum1(aNewNum);
+        int myNewestNum = mySnake.getNum1();
+        System.out.println(myNewestNum);
+        //Animal
+        //the value has been set for num 1 in snake to: 12
+        //we are now returning the value of num1
+        //12
     }
 }

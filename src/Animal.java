@@ -1,8 +1,10 @@
 public class Animal {
-    String name = "Animal";
-    String sound = "Animal sound";
+    //static so that you cannot change the variables from the main class using . notation
+    static String name = "Animal";
+    static String sound = "Animal sound";
 
     Animal(){
+        //this is a constructor which is not doing anything but allows you to call it using that
     }
 
     public void whatsMyName(){
