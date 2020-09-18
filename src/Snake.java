@@ -19,6 +19,10 @@ public class Snake extends Animal {
         return num2;
     }
 
+    public int addNum1Num2(){
+        return num1 + num2;
+    }
+
 
     @Override
     public void whatsMyName() {
