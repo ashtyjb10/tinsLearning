@@ -14,5 +14,13 @@ public class main
         Dog myDog = new Dog("Kai2");
         myDog.whatsMyName();
         myDog.speak();
+
+        //heres what this would print out.
+        //Animal
+        //Animal sound
+        //Kai
+        //Bark
+        //Kai2
+        //Bark
     }
 }
